@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   -webkit-tap-highlight-color: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   color: var(--white-light);
 }
@@ -31,7 +31,9 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
+.jcc {
+  justify-content: center;
+}
 .jcs {
   justify-content: space-between;
 }
@@ -158,14 +160,15 @@ section {
   --dark-light: #191f3a;
   --white: #ffffff;
   --white-light: #c8c8c8;
-  --shadow: 0 0 15px rgba(0,0,0,0.25);
-  --cursive-font: 'Dancing Script', cursive;
+  --shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  --cursive-font: "Dancing Script", cursive;
   --transition-all: all 0.5s ease-in-out;
   scroll-behavior: smooth;
 }
 
 @keyframes zoomInOut {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
@@ -183,7 +186,8 @@ section {
 }
 
 @keyframes pageLoader {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(-50px);
   }
   50% {
@@ -207,7 +211,7 @@ section {
 }
 
 .page-loder::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 4px;
   width: 100px;
@@ -277,7 +281,7 @@ section {
 
 .header .nav-toggler span::before,
 .header .nav-toggler span::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -301,10 +305,10 @@ section {
   padding: 0 15px;
   max-width: 244px;
 }
-.header .logo a img{
-border-radius: 20px;
+.header .logo a img {
+  border-radius: 20px;
 }
-.header .logo .text-logo{
+.header .logo .text-logo {
   padding-left: 10px;
   color: #eaa023;
   font-size: 25px;
@@ -340,7 +344,7 @@ border-radius: 20px;
 }
 
 .header::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -396,7 +400,7 @@ border-radius: 20px;
 }
 
 .home-section::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -451,7 +455,7 @@ border-radius: 20px;
 }
 
 .about-section .about-img .img-box::before {
-  content: '';
+  content: "";
   position: absolute;
   height: 100px;
   width: 100px;
@@ -518,8 +522,8 @@ border-radius: 20px;
 }
 
 .menu-section .menu-item-title img {
-width: 80px;
-height: 80px;
+  width: 80px;
+  height: 80px;
   margin-right: 15px;
   border-radius: 5px;
 }
@@ -537,7 +541,7 @@ height: 80px;
 }
 
 .menu-section .menu-item::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 15px;
   right: 15px;
@@ -725,7 +729,7 @@ height: 80px;
 }
 
 .footer::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
